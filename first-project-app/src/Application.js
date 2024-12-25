@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import HighScore from './HighScore';
 
 class Application extends Component{
   constructor(props){
@@ -31,10 +32,7 @@ class Application extends Component{
     return (
       <div>
         <h1>you clicked the button {count} times</h1>
-        {(this.state.overTen) ?
-        <h3>Beat high score of 10!</h3>
-        : null
-        }
+        <HighScore />
       
         <span>
         <button onClick={() => this.handleClick()}>Click me</button>
