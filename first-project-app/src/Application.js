@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class application extends Component{
+class Application extends Component{
 
   render(){
     return "Hello World";
@@ -8,4 +8,4 @@ class application extends Component{
 
 }
 
-export default application;
+export default Application;
