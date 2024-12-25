@@ -33,7 +33,7 @@ class Application extends Component{
       <div>
         <h1>you clicked the button {count} times</h1>
         <HighScore 
-        overTen
+        overTen={this.state.overTen}
         />
       
         <span>
