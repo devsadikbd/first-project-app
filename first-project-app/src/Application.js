@@ -32,7 +32,9 @@ class Application extends Component{
     return (
       <div>
         <h1>you clicked the button {count} times</h1>
-        <HighScore />
+        <HighScore 
+        overTen
+        />
       
         <span>
         <button onClick={() => this.handleClick()}>Click me</button>
